@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    max-height: 200px;
+    margin-top: 5px 30px 40px 30px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#title h1 {
+    color: white;
+    word-spacing: 5px;
+}
+
+header #title h1 #to-top {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* header img {
+    max-height: 80px;
+    margin-left: 30px;
+} */
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 969px) {
+    header h1 {
+        height: 50px;
+        justify-content: left;
+    }
+    /* header img {
+        display: none;
+    } */
+    header nav ul li a {
+        text-transform: uppercase;
+    }
+    header nav {
+        justify-content: right;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    header {
+        justify-content: center;
+        margin: auto;
+        height: 200px;
+    }
+}
+
+
+/* hr {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid gray;
+} */
+
+.html-cheat h1 {
+    color: rgba(0, 0, 0, .8);
+    font-size: 2.3em;
+    font-family: helvetica, sans-serif;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline rgb(82, 82, 195);
+}
+
+.container {
+    margin: 250px auto;
+    max-width: 1000px;
+    max-height: auto;
+}
+
+table {
+    width: 100%;
+}
+
+thead,
+td,
+tr {
+    border: 2px solid #3F4E4F;
+    padding: 10px;
+}
+
+table thead {
+    height: 30px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr td .reference {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px
+}
+
+tr td a {
+    color: blue;
+    font-family: Helvetica, sans-serif;
+}
+
+tr td a:hover {
+    text-decoration: underline rgb(82, 82, 195);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    max-height: 250px;
+    margin-top: 5px;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+footer div p {
+    color: white;
+    font-size: 1.3em;
+}
+
+.css-cheat {
+    margin-top: 80px;
+}
+
+.css-cheat h1 {
+    color: rgba(0, 0, 0, .8);
+    font-size: 2.3em;
+    font-family: helvetica, sans-seri
+}
